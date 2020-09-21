@@ -1,0 +1,11 @@
+body {
+  background-color: #f0f0f0;
+}
+
+.aboutme {
+    background-color: #fff;
+    position: relative;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: var(--content-corners);
+    box-shadow: var(--drop-shadows);
