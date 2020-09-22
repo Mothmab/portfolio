@@ -1,0 +1,74 @@
+body {
+  font-family: 'Mulish';
+  background-color: #A6CCE3;
+  color: #1165BA;
+  line-height: 180%;
+}
+
+
+.container {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.block {
+    background: #f8f8f8;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+p {
+  font-family: Times New Roman;
+  font-size: 16px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  font-style: italic;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  margin: 20px;
+}
+
+span {
+  letter-spacing: 1px;
+  color: white;
+  font-size: 0.9em;
+  background-color: #f28692;
+  padding: 0.25em 0.5em;
+  border-radius: 1em;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+#indextool {
+  position: absolute;
+  top: 8px;
+  right: 126px;
+  font-size: 16px;
+  color:white;
+}
+
+#about_tool {
+  position: absolute;
+  top: 8px;
+  right: 26px;
+  font-size: 16px;
+  color:white;
+}
+
+#indextool a, #about_tool a {
+  text-decoration: none;
+}
+
+#indextool a:visited, #about_tool a:visited {
+  color:white;
+}

@@ -2,56 +2,186 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>About Me</title>
+    <title>About me</title>
+    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="styleme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
 
-  <div class="aboutme">
-    <h2>About Me</h2>
-    <p> Hello ! My name is Marie-Anne (or Mab to those who know me best). I'm currently in my first year of computer science in Ireland and I'm loving it.
-      I won't put any more details because this is a public page, but thanks for being interested !</p>
-  </div>
+<!--- MAIN CONTENT ----->
 
-  <div class="quote">
-    <p>I had the epiphany that laughter was light, and light was laughter, and that this was the secret of the universe </p>
-  </div>
+<section id="container">
 
-  <div class="faves">
-    <h2>Favourites</h2>
-      <div class="up">
+    <div id="content-wrap">
 
-            <div class="love">
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+        <!--- ABOUT HEADER ----->
+
+        <article id="about-header">
+
+          <div class="icon-gradient">
+                <img src="avatar.png"/>
             </div>
 
-      <div class="up">
-            <div class="likes">
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+             <div class="title">Mab</div>
+
+        </article>
+
+        <!--- END OF ABOUT HEADER ----->
+
+        <div class="main-flex">
+
+
+
+            <!--- ABOUT SUMMARY ----->
+
+            <article class="summary">
+
+                <div class="subtitle">about me</div>
+
+                <p>
+                  Hello ! My name is Marie-Anne (or Mab to those who know me best). I'm currently in my first year of computer science in Ireland and I'm loving it.
+                </p>
+
+                <p>
+                  I won't put any more details because this is a public page, but thanks for being interested ! <i data-feather="smile"></i>
+                </p>
+
+            </article>
+
+            <!--- END OF ABOUT SUMMARY ----->
+
+        </div>
+
+        <!--- ================================
+
+            END OF MAIN ABOUT
+
+        ====================================== ----->
+
+
+
+        <!--- ================================
+
+            BEGINNING OF MIDDLE CONTENT
+
+        ====================================== ----->
+
+        <div class="flexing">
+
+            <div class="flex-left">
+
+                </article>
+
+                <article id="skills">
+
+                    <div class="subtitle">skills</div>
+
+                    <li>
+                        <div class="upper">html/css</div>
+                        <div class="skill-bar">
+                            <div style="width: 20%;"></div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="upper">javascript</div>
+                        <div class="skill-bar">
+                            <div style="width: 2%;"></div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="upper">java</div>
+                        <div class="skill-bar">
+                            <div style="width: 0%;"></div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="upper">russian</div>
+                        <div class="skill-bar">
+                            <div style="width: 7%;"></div>
+                        </div>
+                    </li>
+
+                </article>
+
+                <!--- END OF SKILLS ----->
+
             </div>
-      </div>
 
-      <div class="up">
-            <div class="hates">
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </div>
-      </div>
+            <div class="flex-right">
+
+                <!--- LIKES AND DISLIKES ----->
+
+                <article id="favourites">
+
+                    <div class="subtitle">favourites</div>
+
+                    <div class="upper">
+                        <i data-feather="heart"></i>
+                        <li>the goldfinch</li>
+                        <li>indie movies</li>
+                        <li>rodents</li>
+                        <li>cowboys</li>
+                        <li>paintings</li>
+                    </div>
+
+                    <div class="upper">
+                        <i data-feather="thumbs-up"></i>
+                        <li>photography</li>
+                        <li>reading</li>
+                        <li>quizzes</li>
+                        <li>cooking</li>
+                        <li>hiking</li>
+                    </div>
+
+                    <div class="upper">
+                        <i data-feather="thumbs-down"></i>
+                        <li>cold temperatures</li>
+                        <li>leeks</li>
+                        <li>insects</li>
+                        <li>deep waters</li>
+                        <li>wearing corrective glasses</li>
+                    </div>
+
+                </article>
+
+                <!--- END OF LIKES AND DISLIKES ----->
 
 
-      </div>
-  </div>
 
-  </body>
+            </div> <!-- fin flexright -->
+
+        </div> <!-- fin flex left -->
+        <!--- QUOTE BOX ----->
+
+        <article id="quote">
+
+            <b>“I had the epiphany that laughter was light, and light was laughter, and that this was the secret of the universe.” </b>
+
+            <div class="upper">Donna Tartt, The Goldfinch</div>
+
+        </article>
+
+        <!--- END OF QUOTE BOX ----->
+
+    </div> <!-- fin flex main -->
+
+</section>
+
+<div id="indextool">
+  <a href="index.html">Index</a>
+</div>
+
+<div id="contact_tool"> 
+  <a href="contact.html">Contact</a>
+</div>
+
+<script>
+      feather.replace()
+</script>
+
+</body>
 </html>
